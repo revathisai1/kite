@@ -1,0 +1,9 @@
+version: "3.0"
+services:
+  myubuntu:
+    container_name: pack4
+    hostname: king2
+    image: ubuntu
+    tty: true
+    ports:
+      - "8088:8080"
